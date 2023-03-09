@@ -1,0 +1,205 @@
+
+*{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   color: rgb(59, 6, 59);
+   max-width: 100%;
+  
+}
+body{
+   background:rgba(226, 141, 226, 0.7)
+}
+/**header**/
+header {
+   position: relative;
+   margin: 20px auto;
+   width: 1000px;
+   height:48 px;
+}
+h1{
+   text-align: center;
+   font-family: 'Rubik Iso';
+   font-size: 50px;
+   margin: 20px auto;
+   background-image:url(file:///C:/Users/PC/Documents/PROYECTO%20FINAL/d7hd8cj-7079eaf2-382a-4e3e-892d-5394ee06fcb5.jpg) ;
+   border-radius: 100%;
+   line-height: 60px;
+}
+.card {
+   position: relative;
+   margin:20px auto;
+   padding: 20px 0;
+   width: 200px;
+   border-radius: 10px;
+   box-shadow:1px rgba(78, 3, 68, 0.5);
+   overflow: hidden;
+   text-align: center;
+   box-shadow: 0 0 20px;
+   background-color: rgba(144, 62, 221, 0.288);
+}
+
+header img{
+   width: 180px;
+   height: 200px;
+   border-bottom-left-radius:50% ;
+   border:solid rebeccapurple
+}
+/**fin header**/
+nav{
+   position: relative;
+   margin:auto;
+   width: 1000px;
+   height: 48px;
+   
+}
+.botones{
+   float: left;
+   width: 70px;
+   height: 70px;
+   margin: 0 90px;
+   text-align: center;
+   border-radius: 20px;
+   background-image: url(file:///C:/Users/PC/Documents/PROYECTO%20FINAL/3ef1f36341c90cf7ad765eea283dfa20.png);
+   background-size:cover;
+   box-shadow: 0 0 10px;
+}
+.botones img{
+   width:40px;
+   height:40px;
+background: none;
+margin-top: 10px;
+}
+a .botones:hover{
+   background:  rgba(255, 80, 240, 0.664);
+   color: crimson;
+}
+a .botones:active{
+   background-color: aqua;
+   color: darkblue;
+}
+section{
+   position: relative;
+   margin:60px auto;
+   width: 1200px;
+   height: 453px;
+   background-color:rgba(221, 160, 221, 0.719);
+   text-align: center;
+}
+section h2{
+   margin: 30px;
+   text-decoration-line: overline;
+   font-family: 'Rubik Iso';
+   font-size: Xx-large;
+}
+aside#izquierda{
+   position:absolute;
+   left: 0;
+   top: 0;
+   width: 300px;
+   height: 453px;
+   background-image: url(file:///C:/Users/PC/Documents/PROYECTO%20FINAL/pngtree-blue-pink-gradient-star-dream-princess-background-picture-image_1382500.jpg);
+   box-shadow: 0 0 20px;
+}
+aside#derecha{
+   position: absolute;
+   right: 0;
+   top: 0;
+   width: 300px;
+   height: 453px;
+   background-image: url(file:///C:/Users/PC/Documents/PROYECTO%20FINAL/pngtree-blue-pink-gradient-star-dream-princess-background-picture-image_1382500.jpg);
+   box-shadow: 0 0 20px;
+   z-index: 0;
+}
+.formulario{
+   margin: 20px auto;
+   margin-top: 20px;
+   padding: 20px;
+   text-align: left;
+}
+aside#derecha h4{
+   text-align: center;
+   margin: 10px;
+}
+.formulario_input, .formulario_label, .formulario_submit {
+   display: block;
+   width: 97%;
+   font-size: small;
+}
+.formulario_input{
+   padding:10px;
+   background: transparent;
+   border: 1px solid coral;
+   margin-bottom: 40px;
+}
+.formulario_input:focus + .formulario_label{
+ margin-top: -30px; 
+}
+.formulario_label{
+   padding-left: 10px;
+   position: absolute;
+   margin-top: -65px;
+   z-index: -5;
+   transition: all 0.2s;
+}
+.formulario_submit{
+   background-color: coral;
+   color:black;
+   padding: 10px 20px;
+   font-size: medium;
+}
+.fijar {
+   margin-top: -30px;
+}
+#top{
+   position: relative;
+   margin: 20px auto;
+   margin-right: 20px;
+   width: 1500px;
+   height: 200px;
+}
+ul#info{
+   float: left;
+   margin:20px auto;
+   width: 300px;
+   height: 120px;
+   text-align: justify;
+   background-color: aquamarine;
+   text-align: center;
+}
+ul#contacto{
+   float: right;
+   margin: 20px;
+   width: 300px;
+   height: 90px;
+   background-color:blueviolet;
+   text-align: center;
+}
+ul#idiomas{
+   float: left;
+   margin: 20px;
+   width: 350px;
+   height: 65px;
+   background-color: violet;
+   text-align: center;
+}
+ul#habilidades{
+   float:right;
+   margin: 20px;
+   width: 250px;
+   height: 120px;
+   background-color: magenta;
+   text-align: center;
+}
+footer{
+   position:relative;
+   margin: 20px auto;
+   width: 1000px;
+   height: 90px;
+   background-color:yellow;
+   text-align: center;
+   line-height: 48px;
+}
+footer h3{
+   padding: 20px;
+}
